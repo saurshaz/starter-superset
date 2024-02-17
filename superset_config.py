@@ -79,7 +79,7 @@ DATA_CACHE_CONFIG = {
 ROW_LIMIT = 5000
 
 # Flask-WTF flag for CSRF
-WTF_CSRF_ENABLED = True
+WTF_CSRF_ENABLED = False
 # Add endpoints that need to be exempt from CSRF protection
 # WTF_CSRF_EXEMPT_LIST = ['/api/v1/security/guest_token/']
 # A CSRF token that expires in 1 year
@@ -99,7 +99,7 @@ MAPBOX_API_KEY = env('MAPBOX_API_KEY')
 
 
 # Enable CORS
-# ENABLE_CORS = True
+ENABLE_CORS = True
 
 # Configure CORS options if necessary (this is optional and can be customized as needed)
 # CORS_OPTIONS = {
