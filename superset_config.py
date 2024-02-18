@@ -102,10 +102,10 @@ MAPBOX_API_KEY = env('MAPBOX_API_KEY')
 ENABLE_CORS = True
 
 # Configure CORS options if necessary (this is optional and can be customized as needed)
-# CORS_OPTIONS = {
-#   'supports_credentials': True,
-#   'allow_headers': ['*'],
-#   'resources': ['*'],  
-#   'origins': ['*'], # add the domains you want to enable or keep * to allow all domains. 
-#   # Add other options here as per your requirements
-# }
+CORS_OPTIONS = {
+  'supports_credentials': True,
+  'allow_headers': ['*'],
+  'resources': ['*'],  
+  'origins': ['*'], # add the domains you want to enable or keep * to allow all domains. 
+  # Add other options here as per your requirements
+}
